@@ -36,6 +36,6 @@ Credit history is the most correlated with loan status.
 For continuous predictor variables, It brings down the scales of the numerical variables with different ranges
 ## Then data frame is converted to array, to make sure numerical values are going into the models.
 ## RF, GBM, XGB and Naive Bayes used. RF n estimator is taken as 500 and criterion is taken as gini and entropy for grid search. GBM and XGB: 'learning_rate': [0.01,0.05,0.1],'max_depth': [3,4,5],'n_estimators': [500]
-## Cross validation: We predict accuracy, recall for all the models. We did k fold cv where k=5 
-## So we get the best recall score of 100% with gbm!!! as we need to correctly predict the "1" points
+## Cross validation: We predict accuracy, f1 score for all the models. We did k fold cv where k=5 
+So we get the best f1 score of approx 87.23% with Naive Bayes!!!
 
