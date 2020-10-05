@@ -21,7 +21,7 @@ Loan_Status	(Target) Loan approved (Y/N)
 Steps:
 ## Missing value analysis:
 mode imputation for categorical variables (gender, married, dependents, self-employed, credit history), median imputation for continuous variables.
-## EDA (https://public.tableau.com/views/loanapproval/percentageofloaneligibiltybasedonloanamount?:language=en&:display_count=y&publish=yes&:origin=viz_share_link) you can also find it in the github repository
+## EDA (https://public.tableau.com/views/loanapproval/percentageofloaneligibiltybasedonloanamount?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
 ## Chi-square Analysis
 To understand the dependence between the input categorical variables and the input variables and the target variable
 First did label encoding for the categorical variables, then performed chi-square analysis between the variables.
